@@ -1,3 +1,15 @@
+## Tutorial Source
+
+[Youtube](https://www.youtube.com/watch?v=4wVgFmDbc5w&t=132s)
+
+## Git Source
+
+[GitHub](https://github.com/BrianMwengi/MyLaravelWebsite)
+
+## This Git
+
+> https://github.com/samedan/2305_laravel_form_send_email
+
 # PagesController
 
 > php artisan make:controller PagesController
