@@ -6,6 +6,8 @@
 
 [GitHub](https://github.com/BrianMwengi/MyLaravelWebsite)
 
+> composer update
+
 ## This Git
 
 > https://github.com/samedan/2305_laravel_form_send_email
@@ -13,6 +15,10 @@
 # PagesController
 
 > php artisan make:controller PagesController
+
+# Mail VisitorContact /app/Mail/VisitorContact
+
+> php artisan make:mail VisitorContact
 
 # Laravel Collective HTML
 

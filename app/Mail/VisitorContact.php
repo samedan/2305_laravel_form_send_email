@@ -10,7 +10,7 @@ use Illuminate\Queue\SerializesModels;
 class VisitorContact extends Mailable
 {
     use Queueable, SerializesModels;
-    public $data;
+    public $data; // data from contact Form
 
     /**
      * Create a new message instance.

@@ -3,8 +3,8 @@
   <section>
 	<div class="bg-contact2" style="background-image: url({{ asset('images/bg-01.jpg') }})">
 		<div class="container-contact2">
-     {{-- Form comes from laravelcollective --}}
-        {!! Form::open(['route'=>'contact.submit'])!!}
+   {{-- Form comes from laravelcollective --}}
+   {!! Form::open(['route'=>'contact.submit'])!!}
 			<div class="wrap-contact2">
 				<form class="contact2-form validate-form">
 					<span class="contact2-form-title">

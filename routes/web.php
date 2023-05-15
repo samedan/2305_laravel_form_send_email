@@ -21,4 +21,6 @@ use App\Http\Controllers\PagesController;
 Route::get('/', [PagesController::class, 'index']);
 
 Route::get('contact', [PagesController::class, 'showContactForm'])->name('contact.show');
+// Route::get('contact', 'PagesController@showContactForm')->name('contact.show');
 Route::post('contact', [PagesController::class, 'submitContactForm'])->name('contact.submit');
+// Route::post('contact', 'PagesController@submitContactForm')->name('contact.submit');
